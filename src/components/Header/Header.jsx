@@ -25,8 +25,8 @@ const Header = () => {
                 <img src={logo} alt="" />
             </a>
 
-            <button className="navbar-toggler" type='button' data-bs-toggle="collapse" data-bs-target="#collapsableNav" aria-controls='collapsableNav' aria-expanded="false" aria-label='Toggle navigation'>
-                <span className="navbar-toggler-icon bg-white rounded"></span>
+            <button className="navbar-toggler bg-light rounded" type='button' data-bs-toggle="collapse" data-bs-target="#collapsableNav" aria-controls='collapsableNav' aria-expanded="false" aria-label='Toggle navigation'>
+                <span className="navbar-toggler-icon"></span>
             </button>
 
             <div className="collapse navbar-collapse" id="collapsableNav">

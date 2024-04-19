@@ -1,0 +1,28 @@
+h1{
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    
+    .highlight{
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+    p:not(.highlight){
+        font-size: 15.5px;
+    }
+
+    @media screen and (max-width: 768px) {
+        h1{
+            font-size: 24px;
+        }
+        .highlight{
+            font-size: 16px !important;
+        }
+        p:not(.highlight){
+            font-size: 14px;
+        }
+    
+        
+    }
