@@ -13,6 +13,21 @@ h1{
         font-size: 15.5px;
     }
 
+    .active-user{
+        color: rgb(221, 12, 142);
+        font-weight: bolder;
+    }
+
+    .team-work{
+        color: rgba(52, 201, 222, 1);
+        font-weight: bolder;
+    }
+
+    .active-user,
+    .team-work{
+        transition: all 0.5s ease;
+    }
+
     @media screen and (max-width: 768px) {
         h1{
             font-size: 24px;
