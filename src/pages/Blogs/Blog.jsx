@@ -34,7 +34,7 @@ const Blog = () => {
     }
 
     return (
-        <section className='container py-5 w-75' id='blog'>
+        <section className='container py-5' id='blog'>
             <div>
                 <p className="highlight text-info">Latest Blog</p>
                 <h2 className='text-white'>Tech Stories and Updates!</h2>

@@ -5,6 +5,7 @@ import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Services from './pages/Services/Services';
 import Blog from './pages/Blogs/Blog';
+import Contact from './pages/Contact/Contact';
 
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
       <Services />
 
       <Blog />
+
+      <Contact />
     </div>
   );
 }

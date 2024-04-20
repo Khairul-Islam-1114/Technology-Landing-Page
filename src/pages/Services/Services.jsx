@@ -35,7 +35,7 @@ const Services = () => {
     ];
 
   return (
-    <section id='services' className='container w-75 py-5'>
+    <section id='services' className='container py-5'>
 
         <div>
 
