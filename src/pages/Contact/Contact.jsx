@@ -16,8 +16,8 @@ const Contact = () => {
                 <h2 className='text-white'>Get In Touch AI TECH Technology</h2>
                 <p className='text-white-50'>Our platform showcases the latest in tech trends, from AI and machine learning to cybersecurity, IoT, and beyond. </p>
 
-                <div className="row mb-3">
-                    <div className="col d-flex justify-content-start align-items-center gap-2">
+                <div className="row mb-4 contact-row">
+                    <div className="col-3 d-flex justify-content-start align-items-center gap-2">
                         <img src={email} alt="mail icon" className="img-fluid" />
                         <h6 className='text-white'><strong>Email:</strong></h6>
                     </div>
@@ -28,8 +28,8 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div className="row mb-3">
-                    <div className="col d-flex justify-content-start align-items-center gap-2">
+                <div className="row mb-4 contact-row">
+                    <div className="col-3 d-flex justify-content-start align-items-center gap-2">
                         <img src={phone} alt="phone icon" className="img-fluid" />
                         <h6 className='text-white'><strong>Contact:</strong></h6>
                     </div>
@@ -40,8 +40,8 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div className="row">
-                    <div className="col d-flex justify-content-start align-items-center gap-2">
+                <div className="row contact-row">
+                    <div className="col-3 d-flex justify-content-start align-items-center gap-2">
                         <img src={location} alt="location icon" className="img-fluid" />
                         <h6 className='text-white'><strong>Address:</strong></h6>
                     </div>

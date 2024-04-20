@@ -17,7 +17,7 @@ const Header = () => {
   }
 
   return (
-    <nav className='navbar navbar-expand-md'>
+    <nav className='navbar navbar-expand-md fixed-top'>
 
         <div className="container">
 

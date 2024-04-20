@@ -6,6 +6,7 @@ import About from './pages/About/About';
 import Services from './pages/Services/Services';
 import Blog from './pages/Blogs/Blog';
 import Contact from './pages/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
       <Blog />
 
       <Contact />
+
+      <Footer />
     </div>
   );
 }

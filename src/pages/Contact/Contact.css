@@ -11,8 +11,9 @@
     a{
         font-size: 14px;
     }
-    .column-1{
-        width: 70%;
+    .contact-row{
+        display: flex;
+        flex-direction: column;
     }
 
 }

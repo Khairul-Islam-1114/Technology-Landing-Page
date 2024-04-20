@@ -1,0 +1,51 @@
+#footer{
+    background-color: rgba(255, 255, 255, 0.12);
+
+}
+
+.subscribe-btn{
+    background-color: rgba(221, 12, 142, 1);
+    font-weight: bold;
+}
+
+.divider{
+    height: 1px;
+    background-color:darkgray;
+    margin: 50px auto;
+}
+
+.bold{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.link{
+    display: block;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width:768px) {
+    .second-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+
+    h2{
+        font-size: 24px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    p,a{
+        font-size: 14px;
+    }
+    
+
+}
