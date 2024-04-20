@@ -5,7 +5,7 @@ import AI from '../../assets/images/Right Welcome.png'
 
 const Home = () => {
   return (
-    <section className="container p-3" id='home'>
+    <section className="container py-5" id='home'>
         <div className="row d-flex justify-content-between align-items-center">
             <div className="col-6">
                 <p className="highlight text-info">Technology Landing Page</p>

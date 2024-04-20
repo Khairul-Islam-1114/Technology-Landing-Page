@@ -41,7 +41,7 @@ const About = () => {
   },[activeUser,teamWork,activeUserTarget,teamWorkTarget]);
 
   return (
-    <section id='about' className='container p-3'>
+    <section id='about' className='container py-5'>
         <div className="row d-flex justify-content-between align-items-center">
 
             <div className="col-4">
