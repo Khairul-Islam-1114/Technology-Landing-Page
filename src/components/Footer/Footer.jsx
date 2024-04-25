@@ -25,7 +25,7 @@ const Footer = () => {
   return (
     <footer className='container rounded px-4 pt-5 pb-4' id='footer'>
 
-        <div className="row">
+        <div className="row footer-row-1">
 
             <div className="col">
                 <h2 className='text-white'>Stay Information</h2>
@@ -52,7 +52,7 @@ const Footer = () => {
 
             <div className="col">
                 
-                <div className="row">
+                <div className="row contact-row-last">
 
                     <div className="col">
 

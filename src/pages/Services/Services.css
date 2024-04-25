@@ -28,18 +28,15 @@ h2{
 }
 
 @media screen and (max-width: 768px) {
-    h2{
-        font-size: 24px;
-    }
-    .highlight{
-        font-size: 16px !important;
-    }
-    p:not(.highlight){
-        font-size: 14px;
-    }
 
-    h5{
-        font-size: 16px;  
+    #services{
+        width: 90vw;
+    }
+    
+    .service-box{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
     }
 
     

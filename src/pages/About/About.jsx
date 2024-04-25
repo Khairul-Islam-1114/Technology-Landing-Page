@@ -42,19 +42,19 @@ const About = () => {
 
   return (
     <section id='about' className='container py-5'>
-        <div className="row d-flex justify-content-between align-items-center">
+        <div className="row d-flex justify-content-between align-items-center about-row">
 
-            <div className="col-4">
+            <div className="col-4 about-column-1">
                 <img src={boyWithTech} alt="Boy experiencing technology" className='img-fluid'/>
             </div>
 
-            <div className="col-6">
+            <div className="col-6 about-column-2">
 
                 <p className="highlight text-info">About Us</p>
                 <h1 className="text-white">Transforming with AI Technology</h1>
                 <p className='text-white-50'>Welcome to our technology hub, where innovation drives the future. Dive into a realm of cutting-edge advancements, where technology intersects with human ingenuity to shape the world.</p>
 
-                <div className='row d-flex'>
+                <div className='row d-flex justify-content-between'>
 
                   <div className="col text-white d-flex flex-column">
                     <h2 className="active-user">{activeUser}+</h2>

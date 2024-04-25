@@ -18,15 +18,60 @@ p:not(.highlight){
     font-size: 15.5px;
 }
 
+
+
 @media screen and (max-width: 768px) {
-    h1{
-        font-size: 24px;
+
+    #home{
+        width: 90vw;
     }
-    .highlight{
-        font-size: 16px !important;
+
+    .home-row{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
     }
-    p:not(.highlight){
-        font-size: 14px;
+
+    .home-row .column-1{
+        width: 100%;
+    }
+
+    .home-row .column-2{
+        width: 40vw;
+        height: 235px;
+        position: relative;
+        margin-bottom: 0;
+    }
+
+    .home-row .column-2 img{
+        animation: slideFromLeft 1s linear forwards ;
+        position: absolute;
+        left: -250px;
+    }
+
+    @keyframes slideFromLeft{
+        0%{
+        left: -200px;
+
+        }
+        25%{
+        left: -150px;
+
+        }
+
+        50%{
+        left: -100px;
+
+        }
+
+        75%{
+        left: -50px;
+
+        }
+
+        100%{
+            left: 0px;
+        }
     }
 
     

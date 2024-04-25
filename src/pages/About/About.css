@@ -29,14 +29,61 @@ h1{
     }
 
     @media screen and (max-width: 768px) {
-        h1{
-            font-size: 24px;
+
+        .highlight, h1{
+            text-align: center;
         }
-        .highlight{
-            font-size: 16px !important;
+
+        #about{
+            margin-bottom: -25px;
+            width: 90vw;
         }
-        p:not(.highlight){
-            font-size: 14px;
+
+        .about-row{
+            display: flex;
+            flex-direction: column-reverse;
+            gap: 25px;
+        }
+
+        .about-column-2{
+            width: 100%;
+        }
+
+        .about-row .about-column-1{
+            width: 50vw;
+            height: 235px;
+            position: relative;
+        }
+    
+        .about-row .about-column-1 img{
+            animation: slideFromRight 3s linear forwards ;
+            position: absolute;
+            right: -250px;
+        }
+    
+        @keyframes slideFromRight{
+            0%{
+            right: -200px;
+    
+            }
+            25%{
+            right: -150px;
+    
+            }
+    
+            50%{
+            right: -100px;
+    
+            }
+    
+            75%{
+            right: -50px;
+    
+            }
+    
+            100%{
+                right: 0px;
+            }
         }
     
         

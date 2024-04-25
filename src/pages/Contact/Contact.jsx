@@ -9,18 +9,19 @@ import AI from '../../assets/images/Right Contact.png';
 const Contact = () => {
   return (
     <section id='contact' className='container py-5'>
-        <div className="row d-flex justify-content-between align-items-center gap-5">
+        <div className="row d-flex justify-content-between align-items-center gap-5 contact-row">
 
             <div className="col">
                 <p className="highlight text-info">Contact Us</p>
                 <h2 className='text-white'>Get In Touch AI TECH Technology</h2>
                 <p className='text-white-50'>Our platform showcases the latest in tech trends, from AI and machine learning to cybersecurity, IoT, and beyond. </p>
 
-                <div className="row mb-4 contact-row">
+                <div className="row mb-4 contact-subrow">
                     <div className="col-3 d-flex justify-content-start align-items-center gap-2">
                         <img src={email} alt="mail icon" className="img-fluid" />
                         <h6 className='text-white'><strong>Email:</strong></h6>
                     </div>
+                    
                     <div className="col">
                         <a href="mailto:aitechnology@example.com" className='text-white-50'>aitechnology@example.com</a>
                         <br />
@@ -28,7 +29,7 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div className="row mb-4 contact-row">
+                <div className="row mb-4 contact-subrow">
                     <div className="col-3 d-flex justify-content-start align-items-center gap-2">
                         <img src={phone} alt="phone icon" className="img-fluid" />
                         <h6 className='text-white'><strong>Contact:</strong></h6>
@@ -40,7 +41,7 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div className="row contact-row">
+                <div className="row contact-subrow">
                     <div className="col-3 d-flex justify-content-start align-items-center gap-2">
                         <img src={location} alt="location icon" className="img-fluid" />
                         <h6 className='text-white'><strong>Address:</strong></h6>

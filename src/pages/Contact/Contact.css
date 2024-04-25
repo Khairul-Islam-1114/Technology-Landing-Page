@@ -1,19 +1,22 @@
 @media screen and (max-width: 768px) {
-    h2{
-        font-size: 24px;
+    #contact{
+        width: 90vw;
     }
-    .highlight{
-        font-size: 16px !important;
+
+    .contact-row h2{
+        text-align: center;
     }
-    p:not(.highlight){
-        font-size: 14px;
-    }
-    a{
-        font-size: 14px;
-    }
+    
     .contact-row{
         display: flex;
         flex-direction: column;
+    }
+
+    .contact-subrow{
+        display: flex;
+        gap: 25px;
+        align-items: center;
+        justify-content: space-between;
     }
 
 }

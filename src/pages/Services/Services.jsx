@@ -41,7 +41,7 @@ const Services = () => {
 
         <p className="highlight text-info text-center">Our Services</p>
         <h2 className='text-center text-white'>Accelerating Tech Advancements</h2>
-        <p className="text-center text-white-50">Our platform showcases the latest in tech trends, from AI and machine learning to cybersecurity, IoT, and beyond. Whether you're an enthusiast, a developer, or a business seeking tech solutions, our curated resources and insights empower</p>
+        <p className="text-white-50">Our platform showcases the latest in tech trends, from AI and machine learning to cybersecurity, IoT, and beyond. Whether you're an enthusiast, a developer, or a business seeking tech solutions, our curated resources and insights empower</p>
 
         </div>
 
